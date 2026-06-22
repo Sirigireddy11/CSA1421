@@ -9,6 +9,6 @@ int main() {
             newlines++;
     }
     printf("Whitespaces: %d\n", spaces);
-    printf("Newlines: %d\n", newlines)
+    printf("Newlines: %d\n", newlines);
     return 0;
 }

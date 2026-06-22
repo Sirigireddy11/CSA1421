@@ -10,7 +10,7 @@ int count = 0;
 
 void insert() {
     printf("Enter name and type: ");
-    scanf("%s %s", table[count].name, table[count].type);
+    scanf("%19s %9s", table[count].name, table[count].type);
     count++;
 }
 
