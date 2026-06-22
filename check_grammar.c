@@ -10,7 +10,7 @@ void S() {
 
 int main() {
     printf("Enter string: ");
-    scanf("%s", s);
+    scanf("%19s", s);
 
     S();
 

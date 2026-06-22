@@ -50,7 +50,7 @@ void F() {
 
 int main() {
     printf("Enter input string: ");
-    scanf("%s", input);
+    scanf("%19s", input);
 
     E();
 

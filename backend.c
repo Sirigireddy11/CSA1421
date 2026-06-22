@@ -8,8 +8,8 @@ int main() {
     char op;
     int top = -1;
 
-    printf("Enter simple expression (like 2+3*4): ");
-    scanf("%s", expr);
+    printf("Enter postfix expression (like 23+4*): ");
+    scanf("%99s", expr);
 
     for (i = 0; expr[i] != '\0'; i++) {
         if (isdigit(expr[i])) {
